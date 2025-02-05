@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(){
+    printf("Hi, I am Linma.\n");
+    printf("I am learning C programming.\n");
+    //or
+    printf("Hi, I am Linma.\nI am learning C programming.\n");
+    //if your waant double next line
+    printf("Hi, I am Linma.\n\n");
+    printf("I am learning C programming.\n");
+    //usage of '\\'
+    printf("Hi, I am Linma.\\");
+    printf("I am learning C programming.\n");
+    //usage of ' \" '
+    printf("They call me \"Linma\".\n\n");
+    //usage of '\t'
+    printf("Hi, I am Linma.\t");
+    printf("I am learning C programming");
+    return 0;
+}
