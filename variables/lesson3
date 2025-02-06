@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int favNum=25;
+    printf("My favourite number is : %d\n\n",favNum);
+    //if you want 2 variables in one sentense
+    int favLetter='L';
+    printf("My favourite number and letter is %d & %c.\n",favNum, favLetter);
+    return 0;
+
+}

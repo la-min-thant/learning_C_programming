@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+    int num1=15;
+    float num2=5.8;
+    char letter='L';
+    //print these variavles
+    printf("%d\n",num1);
+    printf("%d\n",num2);
+    printf("%d\n",letter);
+    printf("these are wrong!\n\n");
+    //need to change also %d
+    //the right answer is below
+    printf("%d\n",num1);
+    printf("%f\n",num2);
+    printf("%c\n",letter);
+
+    return 0;
+}
